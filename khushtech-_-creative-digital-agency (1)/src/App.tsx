@@ -38,7 +38,7 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/why-choose-us" element={<WhyChooseUs />} />
               <Route path="/blog" element={<Blog />} />
-              <Route path="/blog-post" element={<BlogPost />} />
+              <Route path="/blogpost" element={<BlogPost />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </Suspense>
