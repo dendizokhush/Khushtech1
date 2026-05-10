@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Send, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
@@ -24,9 +25,9 @@ export default function Contact() {
             <h2 className="text-3xl font-bold mb-8">Get In Touch</h2>
             <div className="space-y-8">
               {[
-                { icon: Mail, title: 'Email Us', info: 'hello@khushtech.com', desc: 'Direct support for all inquiries.' },
-                { icon: Phone, title: 'Call Us', info: '+1 (555) 000-TECH', desc: 'Mon - Fri, 9am - 6pm EST' },
-                { icon: MapPin, title: 'Visit Us', info: '123 Tech Avenue, Digital City, CA 90210', desc: 'Our creative headquarters.' }
+                { icon: Mail, title: 'Email Us', info: 'info@khushtech.online', desc: 'Direct support for all inquiries.' },
+                { icon: Phone, title: 'Call Us', info: '+254 115 810 524', desc: 'Available for consultations.' },
+                { icon: MapPin, title: 'Visit Us', info: 'Mombasa, Kenya', desc: 'Our creative headquarters.' }
               ].map((item, idx) => (
                 <div key={idx} className="flex gap-6 items-start">
                    <div className="w-14 h-14 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500 shrink-0">
