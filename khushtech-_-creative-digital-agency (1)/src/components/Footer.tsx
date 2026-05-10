@@ -82,15 +82,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex gap-3 text-slate-400 text-sm">
                 <MapPin size={18} className="text-blue-400 shrink-0" />
-                <span>123 Tech Avenue, Digital City, CA 90210</span>
+                <span>Mombasa, Kenya</span>
               </li>
               <li className="flex gap-3 text-slate-400 text-sm">
                 <Mail size={18} className="text-blue-400 shrink-0" />
-                <span>hello@khushtech.com</span>
+                <span>info@khushtech.online</span>
               </li>
               <li className="flex gap-3 text-slate-400 text-sm">
                 <Phone size={18} className="text-blue-400 shrink-0" />
-                <span>+1 (555) 000-TECH</span>
+                <span>+254 115 810 524</span>
               </li>
             </ul>
           </div>
