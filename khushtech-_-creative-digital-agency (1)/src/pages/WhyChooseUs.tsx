@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Shield, Zap, TrendingUp, Headphones, ChevronDown, CheckCircle2, Award, Clock } from 'lucide-react';
+import { Shield, Zap, TrendingUp, Headphones, ChevronDown, CheckCircle2, Award, Clock, Heart, Users } from 'lucide-react';
 
 const steps = [
   { title: 'Discovery', desc: 'Understanding your business, goals, and target audience.' },
@@ -24,20 +24,21 @@ export default function WhyChooseUs() {
   return (
     <div className="pt-24 pb-24 px-6">
       <section className="max-w-7xl mx-auto mb-32 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold mb-8">What Makes Us <span className="text-gradient">Different</span></h1>
-        <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-          We combine data-driven strategy with world-class creative execution 
-          to deliver results that actually matter to your bottom line.
+        <h1 className="text-5xl md:text-7xl font-bold mb-8">Elevating Brands Through <span className="text-gradient">Innovation</span></h1>
+        <p className="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
+          At Khushtech, we don't just build websites – we architect digital success stories. 
+          Our approach combines aesthetic brilliance with technical precision to ensure your 
+          brand stands out in a crowded digital landscape.
         </p>
       </section>
 
       {/* Comparison Grid */}
       <section className="max-w-7xl mx-auto mb-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {[
-          { icon: Zap, title: 'Speed', val: '2x Faster', desc: 'We deliver projects ahead of schedule without cutting corners.' },
-          { icon: TrendingUp, title: 'ROI', val: '40% Boost', desc: 'Average increase in conversion rates for our e-commerce clients.' },
-          { icon: Shield, title: 'Security', val: '99.9%', desc: 'Uptime and zero-breach record since our foundation.' },
-          { icon: Headphones, title: 'Support', val: '24/7', desc: 'Direct access to your dedicated project manager anytime.' }
+          { icon: Zap, title: 'Rapid Delivery', val: 'Agile Execution', desc: 'Our streamlined workflow ensures your project goes live faster without compromising on a single pixel.' },
+          { icon: TrendingUp, title: 'Strategic Growth', val: 'ROI Driven', desc: 'Every design choice is backed by data to maximize conversions and drive measurable business growth.' },
+          { icon: Shield, title: 'Unmatched Quality', val: 'Excellence', desc: 'We maintain a 100% satisfaction rate by delivering products that exceed global industry standards.' },
+          { icon: Award, title: 'Branding Elite', val: 'Premium Craft', desc: 'We create cohesive brand identities that resonate deeply with your audience and build lasting trust.' }
         ].map((item, idx) => (
           <div key={idx} className="glass-card p-10 rounded-3xl border-white/5 flex flex-col items-center text-center">
             <div className="w-16 h-16 bg-blue-500/10 rounded-full flex items-center justify-center text-blue-500 mb-6">
@@ -76,9 +77,9 @@ export default function WhyChooseUs() {
             <h2 className="text-4xl font-bold mb-8">The Khushtech Advantage</h2>
             <div className="space-y-6">
                {[
-                 { title: 'Global Talent Pool', icon: Users, desc: 'We source the best creative minds from around the world.' },
-                 { title: 'Award Winning Quality', icon: Award, desc: 'Our work has been featured on Awwwards, CSS Design Awards, and more.' },
-                 { title: 'Long-term Partnerships', icon: Clock, desc: 'We don\'t just finish projects; we build lasting digital relationships.' }
+                 { title: 'Brand First Approach', icon: Shield, desc: 'We don\'t just design layouts; we build visual ecosystems that define your brand\'s unique voice.' },
+                 { title: 'Satisfied Client Network', icon: Heart, desc: '98% of our clients return for future projects, a testament to our commitment to their long-term success.' },
+                 { title: 'Future-Proof Tech', icon: Award, desc: 'Using cutting-edge frameworks that ensure your site remains fast and secure for years to come.' }
                ].map((benefit, idx) => (
                  <div key={idx} className="flex gap-6 items-start">
                     <div className="w-12 h-12 bg-purple-500/10 rounded-xl shrink-0 flex items-center justify-center text-purple-500">
