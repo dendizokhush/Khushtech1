@@ -14,6 +14,7 @@ const About = lazy(() => import('./pages/About'));
 const Services = lazy(() => import('./pages/Services'));
 const WhyChooseUs = lazy(() => import('./pages/WhyChooseUs'));
 const Blog = lazy(() => import('./pages/Blog'));
+const BlogPost = lazy(() => import('./pages/BlogPost'));
 const Contact = lazy(() => import('./pages/Contact'));
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/why-choose-us" element={<WhyChooseUs />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/blog-post" element={<BlogPost />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </Suspense>
