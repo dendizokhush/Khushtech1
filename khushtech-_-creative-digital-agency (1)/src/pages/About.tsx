@@ -132,10 +132,9 @@ export default function About() {
               <div key={idx} className="group relative">
                 <div className="aspect-[3/4] rounded-3xl overflow-hidden mb-6">
                   <img 
-                    src={`https://i.pravatar.cc/400?u=${member.img}`} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80"
-                    referrerPolicy="no-referrer"
+                    src={member.img}
+  alt={member.name}
+  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80"
                   />
                 </div>
                 <h3 className="text-xl font-bold">{member.name}</h3>
