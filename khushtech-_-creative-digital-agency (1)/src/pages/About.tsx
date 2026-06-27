@@ -114,9 +114,9 @@ export default function About() {
     img: '/images/Denis Wandera.png' 
   },
   { 
-    name: 'Sarah Chen', 
+    name: 'Brian Oduma', 
     role: 'Head of Design', 
-    img: '/images/designer.jpg' 
+    img: '/images/Brian Oduma.jpg' 
   },
   { 
     name: 'Alex Rivera', 
