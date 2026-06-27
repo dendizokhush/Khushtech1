@@ -17,7 +17,7 @@ const services = [
     desc: 'Deep user research and testing for intuitive product experiences.',
     benefits: ['User Persona Research', 'Wireframing', 'Prototyping'],
     price: 'From $1,999',
-    image: '/images/web-design.png'
+    image: '/images/ui-ux-design.png'
   },
   {
     icon: Database,
@@ -33,7 +33,7 @@ const services = [
     desc: 'Native and cross-platform mobile apps that users love.',
     benefits: ['iOS & Android', 'Performance Focused', 'Cloud Ready'],
     price: 'From $4,999',
-    image: '/images/web-development.jpg'
+    image: '/images/web-development.png'
   },
   {
     icon: PenTool,
@@ -41,7 +41,7 @@ const services = [
     desc: 'Logos, color palettes, and voice that define your unique brand.',
     benefits: ['Logo Design', 'Brand Guidelines', 'Visual Assets'],
     price: 'From $999',
-    image: '/images/web-design.png'
+    image: '/images/branding-design.png'
   },
   {
     icon: Zap,
@@ -49,7 +49,7 @@ const services = [
     desc: 'Dominating search results with calculated strategy and execution.',
     benefits: ['Keyword Research', 'Technical SEO', 'Backlink Strategy'],
     price: 'From $499/mo',
-    image: '/images/web-design.png'
+    image: '/images/seo-services.png'
   }
 ];
 
