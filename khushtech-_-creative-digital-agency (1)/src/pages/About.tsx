@@ -119,9 +119,9 @@ export default function About() {
     img: '/images/Brian Oduma.jpg' 
   },
   { 
-    name: 'Alex Rivera', 
-    role: 'CTO', 
-    img: '/images/developer.jpg' 
+    name: 'Laban Oduma', 
+    role: 'Web Developer', 
+    img: '/images/Laban Oduma.jpg' 
   },
   { 
     name: 'Emma Watson', 
