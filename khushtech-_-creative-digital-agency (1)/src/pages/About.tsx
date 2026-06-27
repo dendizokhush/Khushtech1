@@ -108,10 +108,26 @@ export default function About() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: 'Khush Singh', role: 'Founder & Director', img: '1' },
-              { name: 'Sarah Chen', role: 'Head of Design', img: '2' },
-              { name: 'Alex Rivera', role: 'CTO', img: '3' },
-              { name: 'Emma Watson', role: 'Lead Developer', img: '4' }
+              { 
+    name: 'Denis Wandera', 
+    role: 'Founder & Director', 
+    img: '/images/khush-singh.jpg' 
+  },
+  { 
+    name: 'Sarah Chen', 
+    role: 'Head of Design', 
+    img: '/images/designer.jpg' 
+  },
+  { 
+    name: 'Alex Rivera', 
+    role: 'CTO', 
+    img: '/images/developer.jpg' 
+  },
+  { 
+    name: 'Emma Watson', 
+    role: 'Lead Developer', 
+    img: '/images/manager.jpg' 
+  }
             ].map((member, idx) => (
               <div key={idx} className="group relative">
                 <div className="aspect-[3/4] rounded-3xl overflow-hidden mb-6">
